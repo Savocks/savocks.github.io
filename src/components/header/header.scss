@@ -1,0 +1,19 @@
+@import "../../styles/utils/colors";
+.Header {
+  height: 60px;
+  width: 100%;
+  padding: 1em 1em;
+  border-bottom: 1px solid $eerie-black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Oswald;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $primary;
+}
+
+
+
+

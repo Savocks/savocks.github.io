@@ -1,0 +1,29 @@
+
+@import "./styles/vendor/vendor";
+@import "./styles/utils/colors";
+@import "./styles/base/typography";
+
+body {
+  color: $eerie-black;
+  background-color: $bg-white;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  padding: 100px 50px;
+}
+
+a:visited {
+  color: $eerie-black;
+}
+

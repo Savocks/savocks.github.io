@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'IslandMoments';
+  src: local('IslandMoments'), url(../fonts/IslandMoments-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: local('Oswald'), url(../fonts/Oswald-VariableFont_wght.ttf) format('ttf');
+}
+
+body {
+  font-family: IslandMoments, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Oswald, sans-serif;
+}
