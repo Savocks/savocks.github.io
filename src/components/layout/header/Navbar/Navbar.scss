@@ -13,6 +13,7 @@
   padding: .5em 1em;
   position: relative;
   text-decoration: none;
+  color: $secondary;
   &.active {
     &::after {
       content: '';
