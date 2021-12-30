@@ -1,0 +1,13 @@
+@import "../../../../styles/utils/colors";
+
+.Icon {
+  font-size: 32px;
+  margin: 0 1em;
+  a {
+    color: $secondary;
+    text-decoration: none;
+    &:visited {
+      color: $secondary;
+    }
+  }
+}

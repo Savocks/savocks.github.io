@@ -1,5 +1,6 @@
 import React from "react";
 import './logo.scss';
+import { Link } from "react-router-dom";
 
 function Logo() {
   return (
@@ -8,7 +9,7 @@ function Logo() {
         <img src="./logo.png" alt="Savocks"/>
       </div>
       <div className="Logo-Name">
-        Savocks
+        <Link to="/">Savocks</Link>
       </div>
     </div>
   )

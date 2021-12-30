@@ -4,12 +4,13 @@
 @import "./styles/base/typography";
 
 body {
-  color: $eerie-black;
-  background-color: $bg-white;
+  color: $secondary;
+  background-color: $primary;
   position: relative;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #root {
@@ -20,10 +21,23 @@ body {
 .main {
   height: 100%;
   width: 100%;
-  padding: 100px 50px;
+}
+
+p {
+  margin: 0;
 }
 
 a:visited {
   color: $eerie-black;
+}
+
+.white {
+  background-color: $bg-white;
+  color: $eerie-black;
+}
+
+.bg-primary {
+  background-color: $primary;
+  color: $bg-white;
 }
 

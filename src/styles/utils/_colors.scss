@@ -19,3 +19,5 @@ $gradient-bottom-right: linear-gradient(135deg, #0b090aff, #161a1dff, #660708ff,
 $gradient-top-left: linear-gradient(225deg, #0b090aff, #161a1dff, #660708ff, #ba181bff, #b1a7a6ff, #d3d3d3ff, #f5f3f4ff);
 $gradient-bottom-left: linear-gradient(315deg, #0b090aff, #161a1dff, #660708ff, #ba181bff, #b1a7a6ff, #d3d3d3ff, #f5f3f4ff);
 $gradient-radial: radial-gradient(#0b090aff, #161a1dff, #660708ff, #ba181bff, #b1a7a6ff, #d3d3d3ff, #f5f3f4ff);
+$gradient-divided-top: linear-Gradient($primary 50%, $bg-white 50%);
+$gradient-divided-bottom: linear-Gradient(180deg, $bg-white 50%, $primary 50%);

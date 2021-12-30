@@ -1,4 +1,4 @@
-@import "../../../styles/utils/colors";
+@import "../../../../styles/utils/colors";
 
 .Navbar {
   height: 100%;
@@ -18,7 +18,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background: $primary;
+    background: $secondary;
     transition: all 100ms ease-in-out;
     left: 50%;
     bottom: 0;
@@ -30,5 +30,8 @@
   }
   a {
     text-decoration: none;
+    &:visited {
+      color: $secondary;
+    }
   }
 }

@@ -1,15 +1,35 @@
 @font-face {
-  font-family: 'IslandMoments';
-  src: local('IslandMoments'), url(../fonts/IslandMoments-Regular.ttf) format('ttf');
+  font-family: "IslandMoments";
+  src: local("IslandMoments"), url(../fonts/IslandMoments-Regular.ttf) format("truetype");
 }
-
 @font-face {
-  font-family: 'Oswald';
-  src: local('Oswald'), url(../fonts/Oswald-VariableFont_wght.ttf) format('ttf');
+  font-family: "Oswald";
+  src: local("Oswald"), url(../fonts/Oswald-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+  font-family: "QuickSand";
+  src: local("QuickSand"), url(../fonts/Quicksand-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Qwitcher";
+  src: local("Qwitcher"), url(../fonts/QwitcherGrypen-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Staatliches";
+  src: local("Staatliches"), url(../fonts/Staatliches-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Cinzel";
+  src: local("Cinzel"), url(../fonts/Cinzel-VariableFont_wght.ttf) format("truetype");
 }
 
-body {
-  font-family: IslandMoments, sans-serif;
+p {
+  font-family: "QuickSand";
+  text-transform: uppercase;
+}
+
+a {
+  font-family: "QuickSand", sans-serif;
 }
 
 h1,
@@ -18,5 +38,29 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Oswald, sans-serif;
+  font-family: "Staatliches";
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4,h5,h6 {
+  font-size: 16px;
+}
+
+.emphasized {
+  font-size: 60px;
+  font-family: "Staatliches", sans-serif;
+  color: $eerie-black;
+  text-transform: uppercase;
 }
