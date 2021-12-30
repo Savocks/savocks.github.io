@@ -24,8 +24,12 @@
 }
 
 p {
+
   font-family: "QuickSand";
   text-transform: uppercase;
+  @media only screen and (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 
 a {
@@ -44,18 +48,31 @@ h6 {
 
 h1 {
   font-size: 50px;
+  @media only screen and (max-width: 600px) {
+    font-size: 22px;
+  }
 }
 
 h2 {
   font-size: 30px;
+  @media only screen and (max-width: 600px) {
+    font-size: 20px;
+  }
 }
 
 h3 {
   font-size: 20px;
+  @media only screen and (max-width: 600px) {
+    font-size: 18px;
+  }
 }
 
 h4,h5,h6 {
   font-size: 16px;
+  @media only screen and (max-width: 600px) {
+    font-size: 14px;
+    font-weight: bold;
+  }
 }
 
 .emphasized {
@@ -63,4 +80,7 @@ h4,h5,h6 {
   font-family: "Staatliches", sans-serif;
   color: $eerie-black;
   text-transform: uppercase;
+  @media only screen and (max-width: 600px) {
+    font-size: 30px;
+  }
 }

@@ -12,6 +12,12 @@
   text-transform: uppercase;
   font-weight: bold;
   color: $secondary;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
 }
 
 
