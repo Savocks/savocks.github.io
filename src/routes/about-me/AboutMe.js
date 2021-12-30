@@ -1,48 +1,40 @@
 import { PageTitle } from "../../components/layout/page-title/PageTitle";
 import { Section } from "../../components/layout/section/Section";
-import { FaAngular, FaChalkboardTeacher, FaJs, FaLaptopCode, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaChild, FaUserGraduate, FaDraftingCompass } from "react-icons/fa";
 import { Emphasized } from "../../components/typography/emphasized/Emphasized";
-import { Quote } from "../../components/typography/quote/Quote";
-
-const title = (<h1>Hi I'm <Emphasized>Giulio Savoca</Emphasized></h1>);
-const subtitle = (<h2>I <Emphasized>Build</Emphasized> things for the Web</h2>);
-const quote = (<Quote
-    quote="When you’re curious, you find lots of interesting things to do."
-    author="Walt Disney"/>
-);
+import { H1 } from "../../components/typography";
 
 export function AboutMe() {
   return (
     <>
-      <PageTitle title={title} subtitle={subtitle} quote={quote} />
+      <PageTitle>
+        <H1>Here's a <Emphasized>brief story</Emphasized> about myself</H1>
+      </PageTitle>
       <Section bgColor="white" direction="left">
         <p className="description">
-          I'm a Frontend Developer with 5 years of experience.
-          I've worked for Big Companies such as Lutech, Accenture and now I'm actually employed in Capgemini
+          I am a guy born in Palermo, with a passion for information technology since I was a child.
+          I started to understand what I could do with computer science, analyzing and modifying the files of the first
+          games for Windows, obtaining different results from the original
         </p>
         <div className="icon">
-          <FaLaptopCode />
+          <FaChild />
         </div>
       </Section>
       <Section bgColor="primary" direction="left">
         <p className="description">
-          I like coding with the major frameworks of the moment, such as Angular and React.
-          Also I like to work on the backend with Node.Js
+          I studied computer science in a local institute in Palermo and then I continued after graduation as a self-taught.
+          Immediately after I started working improving more and more on JavaScript and in all the most used Frontend technologies.
         </p>
         <div className="icon">
-          <FaJs />
-          <FaNodeJs />
-          <FaAngular />
-          <FaReact />
+          <FaUserGraduate />
         </div>
       </Section>
       <Section bgColor="white" direction="left">
         <p className="description">
-          I also love to teach!
-          I recently did some classes for new hires in the company about Web Design!
+          Today, I am studying to become a Frontend Architect and Solution Architect.
         </p>
         <div className="icon">
-          <FaChalkboardTeacher />
+          <FaDraftingCompass />
         </div>
       </Section>
     </>

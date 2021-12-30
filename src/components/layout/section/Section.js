@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './section.scss';
 export const Section = ({ bgColor, direction, children }) => {
   return (
@@ -9,6 +10,5 @@ export const Section = ({ bgColor, direction, children }) => {
         </div>
       </section>
     </>
-
   );
 };

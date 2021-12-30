@@ -12,7 +12,19 @@
   margin: 0 1em;
   padding: .5em 1em;
   position: relative;
-
+  text-decoration: none;
+  &.active {
+    &::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: $secondary;
+      left: 0;
+      bottom: 0;
+      position:absolute;
+    }
+  }
   &::after {
     content: '';
     display: block;
@@ -28,10 +40,7 @@
     width: 100%;
     left: 0;
   }
-  a {
-    text-decoration: none;
-    &:visited {
-      color: $secondary;
-    }
+  &:visited {
+    color: $secondary;
   }
 }

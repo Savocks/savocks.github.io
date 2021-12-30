@@ -4,7 +4,7 @@ import './author.scss';
 export function Author() {
   return (
     <div className="Footer-Author">
-      &copy;Giulio Savoca 2021
+      &copy;Giulio Savoca 2021. All Rights Reserved.
     </div>
   );
 }
