@@ -28,7 +28,7 @@ const Paragraph = () => (
   <>
     <Box component="div">
       <Typography paragraph>
-        Front End Developer | 5+ years of experience | Angular, React
+        Front End Developer | 5+ years of experience | JavaScript, Angular, React, Node.js
       </Typography>
     </Box>
   </>
@@ -43,16 +43,13 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Home(props) {
   return (
-    <>
+    <Box sx={{
+      display: 'flex',
+      alignItems: 'center',
+      justifyContents: 'center',
+      height: '100%'
+    }}>
       <PageTitle title={<Title />} subtitle={<Subtitle />} paragraph={<Paragraph />} />
-      <Grid container rowSpacing={2} columnSpacing={3}>
-        <Grid item xs={12}>
-          <Item>1</Item>
-        </Grid>
-        <Grid item xs={12}>
-          <Item>3</Item>
-        </Grid>
-      </Grid>
-    </>
+    </Box>
   );
 }

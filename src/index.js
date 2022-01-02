@@ -16,6 +16,9 @@ const themeOptions = {
     secondary: {
       main: '#179698',
     },
+    facebookLogo: '#1877f2',
+    linkedInLogo: '#0a66c2',
+    instagramLogo: '#c32aa3'
   },
   typography: {
     fontFamily: '"Montserrat", "Helvetica", "Arial", sans-serif',
