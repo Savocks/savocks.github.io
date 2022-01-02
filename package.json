@@ -4,21 +4,21 @@
   "private": true,
   "homepage": "https://savocks.github.io",
   "dependencies": {
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.6",
+    "@mui/styled-engine-sc": "^5.1.0",
     "@react-spring/parallax": "^9.3.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "formik": "^2.2.9",
-    "normalize.css": "^8.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "react-intersection-observer": "^8.33.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
-    "sanitize.css": "^13.0.0",
+    "react-use-measure": "^2.1.1",
     "sass": "^1.45.1",
     "styled-components": "^5.3.3",
+    "typeface-vt323": "^1.1.13",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
@@ -48,7 +48,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "react-spring": "^9.3.3"
+    "gh-pages": "^3.2.3"
   }
 }

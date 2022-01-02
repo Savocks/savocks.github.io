@@ -1,43 +1,4 @@
-
-@import "./styles/vendor/vendor";
-@import "./styles/utils/colors";
-@import "./styles/base/typography";
-
 body {
-  color: $secondary;
-  background-color: $primary;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-#root {
-  height: 100%;
-  width: 100%;
-}
-
-.main {
-  height: 100%;
-  width: 100%;
-}
-
-p {
   margin: 0;
+  padding: 0;
 }
-
-a:visited {
-  color: $eerie-black;
-}
-
-.white {
-  background-color: $bg-white;
-  color: $eerie-black;
-}
-
-.bg-primary {
-  background-color: $primary;
-  color: $bg-white;
-}
-
