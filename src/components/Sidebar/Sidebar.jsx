@@ -3,6 +3,7 @@ import { Box, Button, Divider, Drawer, List, ListItem, Toolbar, Typography, useT
 import Logo from "../Logo/Logo";
 import styled from "styled-components";
 import SocialButtons from "../SocialButtons/SocialButtons";
+import { Link as RouterLink } from "react-router-dom";
 
 const drawerWidth = '240px';
 const titleHeight = '120px';
@@ -40,7 +41,7 @@ export default function Sidebar({ sideBarItems, children }) {
             {sideBarItems.map(
               ({ name, link }) => (
                 <ListItem key={name}>
-                  <Button disableElevation href={link} >
+                  <Button disableElevation component={RouterLink} to={link} >
                     {name}
                   </Button>
                 </ListItem>
