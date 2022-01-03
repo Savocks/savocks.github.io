@@ -27,11 +27,7 @@ export default function Section({ sectionTitle, children }) {
         { sectionTitle }
       </BigText>
       <Title sectionTitle={sectionTitle} />
-      <Typography paragraph sx={{
-        width: '70%'
-      }}>
-        {children}
-      </Typography>
+      {children}
     </StyledSection>
   );
 }
