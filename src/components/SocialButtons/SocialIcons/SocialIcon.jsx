@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useSpring, animated, config } from 'react-spring';
-import { Button, useTheme } from "@mui/material";
+import { useSpring, animated } from 'react-spring';
+import { useTheme } from "@mui/material";
 
 export default function SocialIcon({ children, color, link }) {
   const theme = useTheme()

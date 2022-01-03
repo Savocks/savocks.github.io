@@ -1,10 +1,11 @@
-import Container from "@mui/material/Container";
-import { Router, Routes, Route } from "react-router-dom";
-import NavBar from "./components/NavBar/NavBar";
-import { Box, CssBaseline, Divider, Drawer, Paper, Toolbar, Typography } from "@mui/material";
-import logo from './images/logo.png';
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+import { Box, CssBaseline} from "@mui/material";
 import Home from "./routes/Home/Home";
 import Sidebar from "./components/Sidebar/Sidebar";
+import About from "./routes/About/About";
+import Projects from "./routes/Projects/Projects";
+import Contacts from "./routes/Contacts/Contacts";
 
 const drawerWidth = '240px';
 
@@ -23,9 +24,9 @@ export default function App() {
         <Sidebar sideBarItems={sidebarItems} >
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<div>Hello About </div>} />
-            <Route path="/projects" element={<div>Hello Projects </div>} />
-            <Route path="/contacts" element={<div>Hello Contacts </div>} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contacts" element={<Contacts />} />
           </Routes>
         </Sidebar>
       </Box>

@@ -58,9 +58,10 @@ export default function Sidebar({ sideBarItems, children }) {
             </List>
           </Box>
         </Drawer>
-        <Box sx={{
+        <Box component="main" sx={{
           flexGrow: 1,
-          p: 5,
+          overflowX: 'hidden',
+          height: '100%'
         }}>
           {children}
         </Box>
