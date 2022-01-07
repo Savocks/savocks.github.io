@@ -9,13 +9,9 @@ const LayoutContainer = styled.div`
   display: flex;
 `;
 
-function TwoColumnLayout({ drawerWidth, children }) {
+function TwoColumnLayout({ children }) {
   return (
     <LayoutContainer>
-      <Sidebar drawerWidth={drawerWidth}/>
-      <Container drawerWidth={drawerWidth}>
-        { children }
-      </Container>
     </LayoutContainer>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from "styled-components";
-import { IconButton, Link } from "gatsby-theme-material-ui";
+import { IconButton } from "gatsby-theme-material-ui";
 import { animated, useSpring } from "react-spring";
 
 

@@ -6,6 +6,7 @@ import { useTheme } from "@mui/material";
 const LogoContainer = styled.div`
   position: relative;
   width: 100%;
+  height: ${props => props.theme.components.MuiDrawer.drawerHeaderHeight};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +29,7 @@ const Title = styled.div`
 export default function Logo(props) {
   const theme = useTheme();
   return (
-    <LogoContainer>
+    <LogoContainer theme={theme}>
       <LogoWrapper>
         <StaticImage src="../images/logo.png" alt="Savocks" />
       </LogoWrapper>

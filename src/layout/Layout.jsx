@@ -7,6 +7,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import Container from "./Container";
+import Sidebar from "./Sidebar";
 library.add(fab, fas, far);
 
 
@@ -15,17 +16,10 @@ function Layout({ children }) {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      {
-        matches ?
-          (
-            <TwoColumnLayout drawerWidth="240px">
-              {children}
-            </TwoColumnLayout>
-          ) :
-          <Container>
-            {children}
-          </Container>
-      }
+      <Sidebar />
+      <Container>
+        { children }
+      </Container>
     </ThemeProvider>
 
   )

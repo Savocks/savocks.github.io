@@ -8,10 +8,20 @@ const theme = createTheme({
     },
     secondary: {
       main: '#179698',
-    },
-    facebookLogo: '#1877f2',
-    linkedInLogo: '#0a66c2',
-    instagramLogo: '#c32aa3'
+    }
+  },
+  zIndex: {
+    hamburgerMenu: 1201
+  },
+  components: {
+    MuiDrawer: {
+      drawerHeaderHeight: '100px',
+      styleOverrides: {
+        root: {
+          width: '300px'
+        }
+      }
+    }
   },
   typography: {
     fontFamily: '"Montserrat", "Helvetica", "Arial", sans-serif',
