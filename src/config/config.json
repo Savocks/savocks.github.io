@@ -1,0 +1,66 @@
+{
+  "sidebarLinks" : [
+    {
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "name": "About",
+      "link": "/about"
+    },
+    {
+      "name": "Experience",
+      "link": "/experience"
+    },
+    {
+      "name": "Skills",
+      "link": "/skills"
+    },
+    {
+      "name": "Projects",
+      "link": "/projects"
+    },
+    {
+      "name": "Contacts",
+      "link": "/contacts"
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "Facebook",
+      "icon": ["fab", "facebook"],
+      "link": "https://www.facebook.com/profile.php?id=100014206569050",
+      "color": "#1877f2"
+    },
+    {
+      "name": "Instagram",
+      "icon": ["fab", "instagram"],
+      "link": "https://www.instagram.com/savocks/",
+      "color": "#c32aa3"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": ["fab", "linkedin"],
+      "link": "https://www.linkedin.com/in/giulio-savoca-09b205142/",
+      "color": "#0a66c2"
+    },
+    {
+      "name": "YouTube",
+      "icon": ["fab", "youtube"],
+      "link": "https://www.youtube.com/channel/UCHRO4BbMXSicDJCHI0Uf8ZQ",
+      "color": "#ff0000"
+    },
+    {
+      "name": "GitHub",
+      "icon": ["fab", "github"],
+      "link": "https://github.com/Savocks",
+      "color": "#171515"
+    },
+    {
+      "name": "Twitch",
+      "icon": ["fab", "twitch"],
+      "link": "https://www.twitch.tv/savocks",
+      "color": "#9146ff"
+    }
+  ]
+}
