@@ -25,17 +25,15 @@ export default function Section({pageTitle, title, subTitle, caption, link, body
         }}
       >{title}</Typography>
       <Box sx={{
-        width: isDesktop ? '50%' : '100%'
+        width: '100%'
       }}>
         {
           !body ?
             null :
             (
-              <Box sx={{width: '50%'}}>
-                <MDXRenderer title={title}>
-                  {body}
-                </MDXRenderer>
-              </Box>
+              <MDXRenderer title={title}>
+                {body}
+              </MDXRenderer>
             )
         }
       </Box>
