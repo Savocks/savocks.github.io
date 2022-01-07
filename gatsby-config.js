@@ -53,6 +53,10 @@ module.exports = {
               {
                 family: 'VT323',
                 variants: [`300`, `400`, `500`, '600', '700'],
+              },
+              {
+                family: 'Oswald',
+                variants: [`300`, `400`, `500`, '600', '700'],
               }
             ],
           },
